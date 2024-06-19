@@ -11,7 +11,7 @@ export default function NavBar() {
             alt="Error"
             className="max-w-12 "
           />
-          <NavLink to={"/lost"} className="text-2xl">
+          <NavLink to={"/"} className="text-2xl">
             LOFO
           </NavLink>
         </div>
@@ -39,7 +39,7 @@ export default function NavBar() {
           </li>
           <li>
             <NavLink
-              to={"/report"}
+              to={"/report-items"}
               className="hover:text-primary hover:underline"
             >
               Report
